@@ -1,3 +1,10 @@
+
+/* <system section="background" selected="ddeaed"> */
+body {
+    background: white;
+}
+/* </system> */
+
 /* フォントを読みやすいものにするにする */
 .entry-content {
     font-family: 'Noto Sans JP','Meiryo UI','Osaka','Avenir';
