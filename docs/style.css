@@ -5,7 +5,7 @@
 /* <system section="background" selected="ddeaed"> */
 body {
     /*#ddeaed*/
-    background: blue;
+    background: #ddeaed;
 }
 /* </system> */
 
@@ -19,8 +19,7 @@ body {
     border-bottom: 2px solid #3a7682
 }
 .global-menu-list li a {
-    /* background-color: #3a7682; */
-    background-color: red;
+    background-color: #3a7682;
 }
 #global-menu {
     background-color: #3a7682;
