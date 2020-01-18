@@ -11,7 +11,7 @@ body {
 
 /* フォントを読みやすいものにするにする */
 .entry-content {
-    font-family: 'Noto Sans JP','Meiryo UI','Osaka','Avenir';
+    font-family: 'Karla', 'YuGothic', "Yu Gothic", "Hiragino Sans", "ヒラギノ角ゴシック", "メイリオ", 'Meiryo','Noto Sans JP','Meiryo UI','Osaka','Avenir';
 }
 
 /* ナビテーションバーの色変更 */
