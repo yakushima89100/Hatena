@@ -184,8 +184,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 
 /* bootstrapの色拡張 */
 .bg-lavender {
-    /* background-color: #e6e6fa; */
-    background-color: red;
+    background-color: #e6e6fa;
 }
 .bg-lightsteelblue {
     background-color: #b0c4de;
