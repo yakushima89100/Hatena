@@ -182,6 +182,25 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     padding: 0;
 }
 
+/* bootstrapの色拡張 */
+.bg-lavender {
+    /* background-color: #e6e6fa; */
+    background-color: red;
+}
+.bg-lightsteelblue {
+    background-color: #b0c4de;
+}
+  /* bootstrap 文字サイズ */
+.display-6 {
+    font-size:
+     2.5em;
+}
+.display-7 {
+    font-size: 2.0em;
+}
+.display-8 {
+    font-size: 1.5em;
+}
 /* PCの場合の文字の大きさを調整 */
 @media screen and (min-width:480px){
     .entry-content {
@@ -223,24 +242,5 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     .entry-inner {
         border: 0.3em;
         padding: 0.3em;
-    }
-    
-    /* bootstrapの色拡張 */
-    .bg-lavender {
-        /* background-color: #e6e6fa; */
-        background-color: red;
-    }
-    .bg-lightsteelblue {
-        background-color: #b0c4de;
-    }
-」    /* bootstrap 文字サイズ */
-    .display-6 {
-        font-size: 2.5em;
-    }
-    .display-7 {
-        font-size: 2.0em;
-    }
-    .display-8 {
-        font-size: 1.5em;
     }
 }
