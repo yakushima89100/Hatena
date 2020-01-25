@@ -31,7 +31,7 @@ body {
     color: #ffffff; /* 文字の色 */
     background: #3a7682; /* 背景色 */
     border-left:0px;
-    #border-color: #ffffff; /* 左の境界の色を白に変更 */ 
+    /* border-color: #ffffff; 左の境界の色を白に変更  */
    /* 角を丸くする */
     border-radius: 10px;/*角の丸み*/
 }
