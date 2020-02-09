@@ -40,6 +40,13 @@ body {
     border-right: 0;
 }
 
+/* サブメニューの背景調整 */
+#box2 {
+    background: white;
+    padding: 2em 1em;
+    border-radius: 10px;
+}
+
 /* 吹き出し部分の色の変更 */
 .entry-content h3:before {
     border-top-color: #3a7682
