@@ -35,6 +35,10 @@ body {
    /* 角を丸くする */
     border-radius: 10px;/*角の丸み*/
 }
+/* 境界の白い線を除去 */
+#main {
+    border-right: 0;
+}
 
 /* 吹き出し部分の色の変更 */
 .entry-content h3:before {
