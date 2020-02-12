@@ -183,7 +183,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .entry-inner {
     background: white;
     border: 1em;
-    padding: 1em;
+    padding: 1em 4em;
     border-radius: 10px;
     /* box-shadow: 0 0 black; */
 }
