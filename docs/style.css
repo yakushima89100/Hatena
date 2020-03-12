@@ -89,10 +89,12 @@ pre.lang-html::before {
     background: #ff9e26;
 }
 /* コードブロック様々なデザイン WordPress移行時は注意*/
-pre[data-weather="aaa"]{
+pre[data-lang="aaa"]{
     background-color: rosybrown;
 }
-
+pre.sss{
+    background-color: rgb(114, 41, 41);
+}
 
 /*関連記事 見出し*/
 .hatena-module-related-entries .hatena-module-title {
