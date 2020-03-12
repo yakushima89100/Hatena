@@ -75,7 +75,7 @@ pre.code::before {
     display: inherit;
     width: fit-content;
 }
-/* 言語名ごとに色分け*/
+/* コードブロック 言語名ごとに色分け*/
 pre.lang-yaml::before {
     background: #3f5845;
 }
@@ -88,6 +88,11 @@ pre.lang-python::before {
 pre.lang-html::before {
     background: #ff9e26;
 }
+/* コードブロック様々なデザイン WordPress移行時は注意*/
+pre[data-weather="aaa"]{
+    background-color: rosybrown;
+}
+
 
 /*関連記事 見出し*/
 .hatena-module-related-entries .hatena-module-title {
@@ -183,7 +188,8 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .entry-inner {
     background: white;
     border: 1em;
-    padding: 1em 3em;
+    padding: 1em 3
+    em;
     border-radius: 10px;
     /* box-shadow: 0 0 black; */
 }
@@ -211,6 +217,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .display-8 {
     font-size: 1.5em;
 }
+
 /* PCの場合の文字の大きさを調整 */
 @media screen and (min-width:480px){
     .entry-content {
