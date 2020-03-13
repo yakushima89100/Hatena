@@ -1,5 +1,5 @@
 /* <system section="theme" selected="6653586347155924442"> */
-@import url("https://blog.hatena.ne.jp/-/theme/6653586347155924442.css");
+/* @import url("https://blog.hatena.ne.jp/-/theme/6653586347155924442.css"); */
 /* </system> */
 
 /* 共通設定 */
@@ -236,7 +236,12 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 　      font-weight: bold;
     }
 }
-
+/* 記事部分に余白を持たせる */
+article {
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+}
 /* 境界の白い線を除去 */
 #main {
     border-right: 0;
