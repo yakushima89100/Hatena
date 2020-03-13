@@ -2,6 +2,7 @@
 @import url("https://blog.hatena.ne.jp/-/theme/6653586347155924442.css");
 /* </system> */
 
+/* 共通設定 */
 /* <system section="background" selected="ddeaed"> */
 body {
     /*#ddeaed*/
@@ -35,10 +36,7 @@ body {
    /* 角を丸くする */
     border-radius: 10px;/*角の丸み*/
 }
-/* 境界の白い線を除去 */
-#main {
-    border-right: 0;
-}
+
 
 /* サブメニューの背景調整 */
 #box2 {
@@ -219,8 +217,8 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .display-8 {
     font-size: 1.5em;
 }
-
-/* PCの場合の文字の大きさを調整 */
+/* PC用の設定 */
+/* 文字の大きさを調整 */
 @media screen and (min-width:480px){
     .entry-content {
         font-size:17px;
@@ -237,6 +235,11 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         font-size:18px;
 　      font-weight: bold;
     }
+}
+
+/* 境界の白い線を除去 */
+#main {
+    border-right: 0;
 }
 
 /* スマホの場合 */
