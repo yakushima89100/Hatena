@@ -87,12 +87,55 @@ pre.lang-html::before {
     background: #ff9e26;
 }
 /* コードブロック様々なデザイン WordPress移行時は注意*/
-pre[data-lang="aaa"]{
-    background-color: rosybrown;
+/* チェック*/
+pre.sg_check{
+    margin: 0 0 1.5em 0;
+    padding: 1em;
+    border: 0.25em solid;
+    border-color: #3496ec;
+    background: white;
+    border-radius: 2px;
+    font-size:1.1em;
+
 }
-pre.sss{
-    background-color: rgb(114, 41, 41);
+pre.sg_check::before {
+    content: 'チェック!';
+    position: relative;
+    bottom: 1em;
+    right: 1em;
+    background: #3496ec;
+    padding: 0 0.35em;
+    color: #ffffff;
+    font-size: 130%;
+    line-height: 1.3em;
+    display: inherit;
+    width: fit-content;
 }
+/* 注意 */
+pre.sg_check{
+    margin: 0 0 1.5em 0;
+    padding: 1em;
+    border: 0.25em solid;
+    border-color: #e8890d;
+    background: white;
+    border-radius: 2px;
+    font-size:1.1em;
+
+}
+pre.sg_alert::before {
+    content: '注意!';
+    position: relative;
+    bottom: 1em;
+    right: 1em;
+    background: #e8890d;
+    padding: 0 0.35em;
+    color: #ffffff;
+    font-size: 130%;
+    line-height: 1.3em;
+    display: inherit;
+    width: fit-content;
+}
+
 
 /*関連記事 見出し*/
 .hatena-module-related-entries .hatena-module-title {
