@@ -101,7 +101,7 @@ pre.sg_check{
 pre.sg_check::before {
     content: 'チェック!';
     position: relative;
-    bottom: 1em;
+    bottom: 1.1em;
     right: 1em;
     background: #3496ec;
     padding: 0 0.35em;
@@ -112,7 +112,7 @@ pre.sg_check::before {
     width: fit-content;
 }
 /* 注意 */
-pre.sg_check{
+pre.sg_alert{
     margin: 0 0 1.5em 0;
     padding: 1em;
     border: 0.25em solid;
@@ -125,7 +125,7 @@ pre.sg_check{
 pre.sg_alert::before {
     content: '注意!';
     position: relative;
-    bottom: 1em;
+    bottom: 1.1em;
     right: 1em;
     background: #e8890d;
     padding: 0 0.35em;
