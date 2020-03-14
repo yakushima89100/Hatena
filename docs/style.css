@@ -89,7 +89,7 @@ pre.lang-html::before {
 /* コードブロック様々なデザイン WordPress移行時は注意*/
 /* チェック*/
 pre.sg_check{
-    margin: 0 0 1.5em 0;
+    margin: 0 auto 1.5em auto;
     padding: 1em;
     border: 0.25em solid;
     border-color: #3496ec;
@@ -99,7 +99,8 @@ pre.sg_check{
 
 }
 pre.sg_check::before {
-    content: 'チェック!';
+    font-family: "Font Awesome 4 Free";
+    content: "\f107チェック!";
     position: relative;
     bottom: 1em;
     right: 1em;
@@ -114,7 +115,7 @@ pre.sg_check::before {
 }
 /* 注意 */
 pre.sg_alert{
-    margin: 0 0 1.5em 0;
+    margin: 0 auto 1.5em auto;
     padding: 1em;
     border: 0.25em solid;
     border-color: #e8890d;
