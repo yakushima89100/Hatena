@@ -192,7 +192,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     position: relative;
 }
 
-/*関連記事の日付*/
+/* 関連記事の日付*/
 .hatena-urllist .urllist-date-link a {
     position: absolute;
     top: 0;
@@ -208,7 +208,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
    	text-decoration: none;
 }
 
-/*関連記事の説明文を非表示に*/
+/* 関連記事の説明文を非表示に*/
 .urllist-entry-body.related-entries-entry-body {
     display: none;
 }
