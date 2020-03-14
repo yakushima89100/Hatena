@@ -317,8 +317,15 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         font-weight: bold;
     }
     /* 記事背景を用紙っぽくするのところの幅をスマホに合わせる */
-    .entry-inner {
+    /* 下のarticle設定とかぶるのでコメントアウト */
+    /* .entry-inner {
         border: 0.3em;
         padding: 0.3em;
+    } */
+    /* 記事部分に余白を持たせる */
+    article {
+        padding: 0.5em;
+        border-radius: 10px;
+        background: white;
     }
 }
