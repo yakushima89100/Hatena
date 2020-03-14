@@ -89,6 +89,7 @@ pre.lang-html::before {
 /* コードブロック様々なデザイン WordPress移行時は注意*/
 /* チェック*/
 pre.sg_check{
+    width: 60%;
     margin: 0 auto 1.5em auto;
     padding: 1em;
     border: 0.25em solid;
@@ -115,6 +116,7 @@ pre.sg_check::before {
 }
 /* 注意 */
 pre.sg_alert{
+    width: 60%;
     margin: 0 auto 1.5em auto;
     padding: 1em;
     border: 0.25em solid;
