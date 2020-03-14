@@ -104,7 +104,7 @@ pre.sg_check::before {
     content: "\f00cチェック!";
     font-weight:900;
     position: relative;
-    bottom: 1em;
+    bottom: 0.9em;
     right: 1em;
     background: #3496ec;
     padding: 0 0.35em;
@@ -132,7 +132,7 @@ pre.sg_alert::before {
     content: "\f071注意!";
     font-weight:900;
     position: relative;
-    bottom: 1.1em;
+    bottom: 0.9em;
     right: 1em;
     background: #e8890d;
     padding: 0 0.35em;
