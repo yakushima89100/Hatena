@@ -1,2 +1,2 @@
-// タイトル作成
-$('.sg_check_tab').before('<span>test</span>');
+// fontawsomeの挿入
+$('.sg_check_ta').before('<span>test</span>');
