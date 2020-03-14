@@ -1,2 +1,2 @@
 // タイトル作成
-$('.sg_check').before('<span>test</span>');
+$('.sg_check_tab').before('<span>test</span>');
