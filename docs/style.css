@@ -282,7 +282,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         font-weight: bold;
     }
 
-    /* 記事部分に余白を持たせる */
+    /* 1記事部分に余白を持たせる */
     article {
         padding: 30px;
         border-radius: 10px;
