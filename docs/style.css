@@ -102,6 +102,7 @@ pre.sg_check{
 pre.sg_check::before {
     font-family: "Font Awesome 5 Free";
     content: "\f00cチェック!";
+    font-weight:900;
     position: relative;
     bottom: 1em;
     right: 1em;
@@ -127,7 +128,9 @@ pre.sg_alert{
 
 }
 pre.sg_alert::before {
-    content: '注意!';
+    font-family: "Font Awesome 5 Free";
+    content: "\f071注意!";
+    font-weight:900;
     position: relative;
     bottom: 1.1em;
     right: 1em;
