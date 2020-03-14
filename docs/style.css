@@ -300,6 +300,10 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 }
 /* スマホの場合 */
 @media screen and (max-width:480px){
+/* 容姿と画面の余白調整 容姿はばを変えることで対応 */
+    #content{
+        width: 96%;
+    }
 /* スマホの場合の文字の大きさを調整 */
     .entry-content {
         font-size:16px;
