@@ -262,7 +262,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 }
 /* PC用の設定 */
 /* 文字の大きさを調整 */
-@media screen and (min-width:480px){
+@media screen {
     .entry-content {
         font-size:17px;
     }
