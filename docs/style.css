@@ -100,8 +100,8 @@ pre.sg_check{
 
 }
 pre.sg_check::before {
-    font-family: "Font Awesome 4 Free";
-    content: "\f107チェック!";
+    font-family: "Font Awesome 5 Free";
+    content: "\f00cチェック!";
     position: relative;
     bottom: 1em;
     right: 1em;
