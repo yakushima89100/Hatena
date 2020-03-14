@@ -95,18 +95,19 @@ pre.sg_check{
     border-color: #3496ec;
     background: white;
     border-radius: 2px;
-    font-size:1.1em;
+    font-size:1em;
 
 }
 pre.sg_check::before {
     content: 'チェック!';
     position: relative;
-    bottom: 1.1em;
+    bottom: 1em;
     right: 1em;
     background: #3496ec;
     padding: 0 0.35em;
     color: #ffffff;
     font-size: 130%;
+    border: 0.1em;
     line-height: 1.3em;
     display: inherit;
     width: fit-content;
@@ -131,6 +132,7 @@ pre.sg_alert::before {
     padding: 0 0.35em;
     color: #ffffff;
     font-size: 130%;
+    border: 0.1em;
     line-height: 1.3em;
     display: inherit;
     width: fit-content;
