@@ -281,18 +281,18 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         font-size:18px;
         font-weight: bold;
     }
-}
-/* 記事部分に余白を持たせる */
-article {
-    padding: 30px;
-    border-radius: 10px;
-    background: white;
-}
-/* 境界の白い線を除去 */
-#main {
-    border-right: 0;
-}
 
+    /* 記事部分に余白を持たせる */
+    article {
+        padding: 30px;
+        border-radius: 10px;
+        background: white;
+    }
+    /* 境界の白い線を除去 */
+    #main {
+        border-right: 0;
+    }
+}
 /* スマホの場合 */
 @media screen and (max-width:480px){
 /* スマホの場合の文字の大きさを調整 */
