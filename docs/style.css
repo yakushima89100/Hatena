@@ -304,12 +304,13 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         border-radius: 10px;
         background: white;
     }
-    /* 境界の白い線を除去 */
+    /* a境界の白い線を除去 */
     #main {
         border-right: 0;
     }
 }
-/* スマホの場合 */
+/* 
+スマホの場合 */
 @media screen and (max-width:480px){
 /* 容姿と画面の余白調整 容姿はばを変えることで対応 */
     #content{
