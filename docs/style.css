@@ -92,7 +92,7 @@ pre.sg_check{
     width: 60%;
     margin: 0 auto 1.5em auto;
     padding: 1em;
-    border: 0.25em solid;
+    border: 0.3em solid;
     border-color: #3496ec;
     background: white;
     border-radius: 2px;
@@ -121,7 +121,7 @@ pre.sg_alert{
     width: 60%;
     margin: 0 auto 1.5em auto;
     padding: 1em;
-    border: 0.25em solid;
+    border: 0.3em solid;
     border-color: #e8890d;
     background: white;
     border-radius: 2px;
