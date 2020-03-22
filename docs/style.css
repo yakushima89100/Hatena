@@ -283,7 +283,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 }
 /* PC用の設定 */
 /* 文字の大きさを調整 */
-@media screen and (min-width:680px){
+@media screen and (min-width:1080px){
     .entry-content {
         font-size:17px;
     }
@@ -320,7 +320,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 }
 
 /* スマホの場合 */
-@media screen and (max-width:680px){
+@media screen and (max-width:1080px){
 /* 容姿と画面の余白調整 容姿はばを変えることで対応 */
     #content{
         width: 98%;
