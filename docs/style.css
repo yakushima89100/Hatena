@@ -311,8 +311,8 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         border-right: 0;
     }
 }
-/* 
-スマホの場合 */
+
+/* スマホの場合 */
 @media screen and (max-width:680px){
 /* 容姿と画面の余白調整 容姿はばを変えることで対応 */
     #content{
