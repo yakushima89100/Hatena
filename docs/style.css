@@ -306,7 +306,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         border-radius: 10px;
         background: white;
     }
-    /* a境界の白い線を除去 */
+    /* 境界の白い線を除去 */
     #main {
         border-right: 0;
     }
@@ -316,6 +316,27 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     }
     #box2{
         margin-right:1.5em;
+    }
+
+    /* 一覧をカードにして表示 PC*/
+    .archive-entry.autopagerize_page_element {
+        display:inline-block;
+        width: 100%;
+        margin:0em;
+        background:white;
+        padding:1em;
+        border-radius:0px;
+    }
+    .archive-entry.autopagerize_page_element .archive-entry-header{
+        display:inline-block;
+        width:81%;
+    }
+    
+    .archive-entry.autopagerize_page_element .entry-title-link {
+    }
+    
+    .archive-entry.autopagerize_page_element .entry-description {
+        display:none
     }
 }
 
@@ -352,5 +373,26 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         padding: 0.3em;
         border-radius: 7px;
         background: white;
+    }
+
+    /* 一覧をカードにして表示 スマホ*/
+    .archive-entry.autopagerize_page_element {
+        display:inline-block;
+        width: 100%;
+        margin:0em;
+        background:white;
+        padding:1em;
+        border-radius:0px;
+    }
+    .archive-entry.autopagerize_page_element .archive-entry-header{
+        display:inline-block;
+        width:51%;
+    }
+    
+    .archive-entry.autopagerize_page_element .entry-title-link {
+    }
+    
+    .archive-entry.autopagerize_page_element .entry-description {
+        display:none;
     }
 }
