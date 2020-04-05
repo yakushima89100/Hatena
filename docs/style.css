@@ -375,6 +375,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         background: white;
     }
 
+
     /* 一覧をカードにして表示 スマホ*/
     .archive-entry.autopagerize_page_element {
         display:inline-block;
@@ -388,8 +389,16 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
         display:inline-block;
         width:51%;
     }
+
+    .archive-entry.autopagerize_page_element .date.archive-date {
+        margin-bottom:0;
+    }
     
     .archive-entry.autopagerize_page_element .entry-title-link {
+        font-size:0.7em;
+    }
+    .archive-entry.autopagerize_page_element .archive-entry-body {
+        display:inline-block;
     }
     
     .archive-entry.autopagerize_page_element .entry-description {
