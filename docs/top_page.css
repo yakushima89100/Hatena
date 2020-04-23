@@ -10,7 +10,7 @@
 }
   /*カード*/
 .page-index .archive-entry{
-  background :#ffffff;   /*カードの背景色*/
+  background :#fff2be;   /*カードの背景色*/
   width: 46%;   /*横幅（２カラム）*/
   padding-top:210px;   /* 上間隔（アイキャッチ画像分空ける） */
   padding-left:7px;    /* 左間隔 */
@@ -24,7 +24,7 @@
 /* アイキャッチのサムネイル */
 .page-index .entry-thumb {
   width: 100%;   /* アイキャッチサムネイル横幅 */
-  height: 200px;   /* アイキャッチサムネイル縦幅 */
+  /* height: 200px;   アイキャッチサムネイル縦幅 */
   background-position: center center;
 }
 .entry-thumb-link:hover {
