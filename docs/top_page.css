@@ -25,6 +25,7 @@
 .page-index .entry-thumb {
   width: 100%;   /* アイキャッチサムネイル横幅 */
   /* height: 200px;   アイキャッチサムネイル縦幅 */
+  height: 50%;   /* アイキャッチサムネイル縦幅 */
   background-position: center center;
 }
 .entry-thumb-link:hover {
