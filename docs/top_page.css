@@ -133,11 +133,6 @@
   .page-index .entry-title{
     padding : 0px 0px 0px 0px;  /* タイトル上下に間隔 */
   }
-  /* タイトルの文字の大きさ調整 */
-  .entry-thumb-link {
-    font-size
-    color: red;
-  }
 
   /* 記事の概要 */
   .page-index .entry-description{
