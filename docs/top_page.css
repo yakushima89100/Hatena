@@ -79,6 +79,7 @@
   }
 }
 
+
 /* =============================================== */
 
 /* スマホ */
@@ -94,20 +95,23 @@
   /*カード*/
   .page-index .archive-entry{
     background :#dddddd;   /*カードの背景色*/
-    width: 46%;   /*横幅（２カラム）*/
-    padding-top:210px;   /* 上間隔（アイキャッチ画像分空ける） */
-    padding-left:7px;    /* 左間隔 */
-    padding-right:7px;   /* 右間隔 */
-    padding-bottom:10px; /* 下間隔 */
+    width: 47%;   /*横幅（２カラム）*/
+    padding-top:130px;   /* 上間隔（アイキャッチ画像分空ける） */
+    padding-left:4px;    /* 左間隔 */
+    padding-right:4px;   /* 右間隔 */
+    /* padding-bottom:10px; */ /* 下間隔 */
     position: relative;
     box-shadow: 1px 1px 4px #cccccc;
     transition: .3s;
     border-radius: 4px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 75%;
   }
   /* アイキャッチのサムネイル */
   .page-index .entry-thumb {
     width: 100%;   /* アイキャッチサムネイル横幅 */
-    height: 200px;  /* アイキャッチサムネイル縦幅 */
+    height: 125px;  /* アイキャッチサムネイル縦幅 */
     background-position: center center;
   }
   .entry-thumb-link:hover {
@@ -124,18 +128,31 @@
     left: 0;
     border-radius: 4px 4px 0 0;
   }
+  
   /* 記事タイトル */
   .page-index .entry-title{
-    padding : 5px 0px 0px 5px;  /* タイトル上下に間隔 */
+    padding : 0px 0px 0px 0px;  /* タイトル上下に間隔 */
   }
+  /* タイトルの文字の大きさ調整 */
+  .entry-thumb-link {
+    font-size
+    color: red;
+  }
+
   /* 記事の概要 */
   .page-index .entry-description{
     display : none;
   }
+  /* 記事の下部分のいらない余白を削除*/
+  .archive-entry-body {
+    display: none;
+  }
+
   /* 日付 */
   .page-index .date{
-    padding-top:2px;  /*上間隔 */
-    padding-left:7px; /* 左間隔 */
+    padding-top:0px;  /*上間隔 */
+    padding-left:0px; /* 左間隔 */
+    margin-bottom: 0.2em; /* 日付下の余白をスマホに合わせて縮めた*/
   }
   /* カテゴリ */
   .page-index .archive-entries .categories {

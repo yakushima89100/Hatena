@@ -319,7 +319,8 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     }
 
     /* 一覧をカードにして表示 PC*/
-    .archive-entry.autopagerize_page_element {
+    /* トップページはファイルに外だし */
+    /* .archive-entry.autopagerize_page_element {
         display:inline-block;
         width: 100%;
         margin:0em;
@@ -337,7 +338,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     
     .archive-entry.autopagerize_page_element .entry-description {
         display:none
-    }
+    } */
 }
 
 /* スマホの場合 */
@@ -376,8 +377,9 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     }
 
 
-    /* 一覧をカードにして表示 スマホ*/
-    .archive-entry.autopagerize_page_element {
+    /* 一覧をカードにして表示 スマホ */
+    /* トップページについては別ファイルに外だしする */
+    /* .archive-entry.autopagerize_page_element {
         display:inline-block;
         width: 100%;
         margin:0em;
@@ -403,5 +405,5 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
     
     .archive-entry.autopagerize_page_element .entry-description {
         display:none;
-    }
+    } */
 }
