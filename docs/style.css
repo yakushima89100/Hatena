@@ -281,6 +281,14 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 #bottom-editarea>p {
     text-align:center;
 }
+
+/* デフォルトで画像を地中央寄せにする */
+img.hatena-fotolife:not(.hatena-image-left):not(.hatena-image-right) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 /* PC用の設定 */
 /* 文字の大きさを調整 */
 @media screen and (min-width:1080px){
