@@ -236,6 +236,24 @@ img.hatena-fotolife:not(.hatena-image-left):not(.hatena-image-right) {
         margin-right:1.5em;
     }
 
+    /* 用紙サイズ変更 */
+    /* 記事とサイドバー含めた幅の変更 */
+    #container #content {
+        width: 1200px;
+    }
+   /* 記事の幅変更 */
+    #content-inner #wrapper {
+        width: 810px;
+    }
+    #content-inner #wrapper #main {
+        width: 100%;
+    }
+
+    /* サイドバーの幅変更 */
+    #box2 {
+        width: 330px;
+    }
+
     /* 一覧をカードにして表示 PC*/
     /* トップページはファイルに外だし */
     /* .archive-entry.autopagerize_page_element {
