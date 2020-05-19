@@ -312,6 +312,12 @@ img.hatena-fotolife:not(.hatena-image-left):not(.hatena-image-right) {
         background: white;
     }
 
+    .hatena-image-left {
+        float: none !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     /* 一覧をカードにして表示 スマホ */
     /* トップページについては別ファイルに外だしする */
