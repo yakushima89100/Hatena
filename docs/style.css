@@ -281,7 +281,7 @@ img.hatena-fotolife:not(.hatena-image-left):not(.hatena-image-right) {
 @media screen and (max-width:1080px){
 /* タイトルの上にナビゲーションドロップダウンをつけるために36px下げる */
     #blog-title {
-        padding-top: 36px;
+        padding-top: 40px;
     }
 /* 容姿と画面の余白調整 容姿はばを変えることで対応 */
     #content{
